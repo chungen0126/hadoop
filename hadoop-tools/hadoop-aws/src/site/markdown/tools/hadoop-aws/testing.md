@@ -774,7 +774,7 @@ Tests in `ITestS3AContentEncoding` may need disabling
 
 ### Disabling tests running in performance mode
 
-Some tests running in performance mode turn off the safety checks. They expect breaking posix semantics.
+Some tests running in performance mode turn off the safety checks. They expect operations which break POSIX semantics to succeed.
 For stores with stricter semantics, these test cases must be disabled.
 ```xml
   <property>

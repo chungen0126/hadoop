@@ -66,7 +66,7 @@ public interface S3ATestConstants {
   /**
    * A property set to true if tests running in performance mode are enabled: {@value }
    */
-  String KEY_PERFORMANCE_TESTS_ENABLED = TEST_FS_S3A + "perf.enabled";
+  String KEY_PERFORMANCE_TESTS_ENABLED = TEST_FS_S3A + "performance.enabled";
 
   /**
    * A property set to true if V1 tests are enabled: {@value}.
