@@ -778,7 +778,7 @@ Some tests running in performance mode turn off the safety checks. They expect o
 For stores with stricter semantics, these test cases must be disabled.
 ```xml
   <property>
-    <name>test.fs.s3a.perf.enabled</name>
+    <name>test.fs.s3a.performance.enabled</name>
     <value>false</value>
   </property>
 ```
