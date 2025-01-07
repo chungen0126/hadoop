@@ -629,7 +629,7 @@ on third party stores.
     <value>false</value>
   </property>
   <property>
-    <name>test.fs.s3a.perf.enabled</name>
+    <name>test.fs.s3a.performance.enabled</name>
     <value>false</value>
   </property>
 ```
